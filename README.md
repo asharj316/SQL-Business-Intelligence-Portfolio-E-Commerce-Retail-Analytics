@@ -7,25 +7,7 @@ This repository contains two major SQL projects designed to solve real-world bus
 
 ---
 
-## 🚀 Project 1: Pakistan’s Largest E-Commerce Analysis
-**Goal:** Analyze 500,000+ transaction records to optimize revenue and understand customer behavior.
-
-### 🧠 Strategic Business Questions Addressed:
-* **Financial Health:** Calculated Total Revenue (Gross Intake) and Average Order Value (AOV).
-* **Customer Retention:** Identified "Power Users" (repeat buyers) for targeted loyalty marketing.
-* **Inventory Velocity:** Ranked product categories by "Velocity" to identify fast-moving vs. stagnant stock.
-* **Logistics & Health:** Analyzed the ratio of Completed vs. Canceled/Refunded orders.
-* **Revenue Share:** Used **Window Functions** to calculate the percentage contribution of each category to total company revenue.
-
-### 🛠️ Technical Skills Demonstrated:
-* **Advanced Aggregations:** `GROUP BY`, `HAVING`, and `CAST` for financial precision.
-* **Window Functions:** `RANK() OVER()` and `SUM() OVER()` for comparative analysis.
-* **Data Cleaning:** Handled "Ghost Columns," filtered NULLs, and performed complex **Date Casting** (converting strings to `DATE` types).
-* **CTEs & Subqueries:** Leveraged nested logic to compare individual transactions against store averages.
-
----
-
-## 📚 Project 2: Relational Bookstore Management System
+## 📚 Project: Relational Bookstore Management System
 **Goal:** Design a relational database schema for a retail bookstore to manage inventory, customers, and sales.
 
 ### 🏗️ Database Architecture:
